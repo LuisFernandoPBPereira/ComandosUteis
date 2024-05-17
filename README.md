@@ -8,4 +8,4 @@
 <h3>Comandos:</h3>
 
 - [Git](https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md)
-- [SQL](#https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md)
+- [SQL](https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md)
