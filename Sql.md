@@ -198,6 +198,12 @@ SELECT DISTINCT [TV.NOME], [TV.BAIRRO], [TC.BAIRRO], [TC.NOME]
    WHERE TV.NOME IS NULL;
 ```
 
+```sql
+SELECT Employees.EmployeeName, Courses.CourseName
+    FROM Employees
+    CROSS JOIN Courses;
+```
+
 <br>
 
 <h2>Tipos de Dados</h2>
