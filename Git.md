@@ -159,6 +159,12 @@ git log
 git log --oneline
 ```
 
+- Exibe histórico de commits com estrutura gráfica de branches e merges.
+
+```bash
+git log --graph
+```
+
 - Exibe o log de uma branch específica
 
 ```bash
