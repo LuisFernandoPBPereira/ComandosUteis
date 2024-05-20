@@ -7,51 +7,52 @@
 
 <h2>Sumário:</h2>
 
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#configura%C3%A7%C3%A3o-do-git---config">git config</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#inicializar-um-reposit%C3%B3rio---init">git init</a>
-
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#adicionar-todos-arquivos-para-o-reposit%C3%B3rio---add">git add</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#mostra-o-autor-das-altera%C3%A7%C3%B5es---blame">git blame</a>
 
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#criar-uma-branch---branch">git branch</a>
 
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#fazer-conex%C3%A3o-com-o-reposit%C3%B3rio-remoto---remote">git remote</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#realizar-commits---commit">git commit</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#enviar-os-commits-para-o-reposit%C3%B3rio-remoto---push">git push</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#trazer-os-commits-do-reposit%C3%B3rio-remoto---pull">git pull</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#log-dos-commits---log">git log</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#verificar-status-dos-arquivos---status">git status</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#clonar-reposit%C3%B3rio---clone">git clone</a>
-
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#retorna-a-vers%C3%A3o-do-commit---checkout">git checkout</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#retornar-a-um-commit-anterior---reset">git reset</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#mostra-as-altera%C3%A7%C3%B5es-do-commit---show">git show</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#trocar-de-branch---switch">git switch</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#unir-branches---merge">git merge</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#transferir-commits-antigos-para-a-branch-desejada---rebase">git rebase</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#guarda-as-altera%C3%A7%C3%B5es-para-aplicar-posteriormente---stash">git stash</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#restaura-as-modifica%C3%A7%C3%B5es---restore">git restore</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#adicionar-tags-aos-commits---tag">git tag</a>
-
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#mostra-as-diferen%C3%A7as-entre-commits---diff">git diff</a>
 
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#adiciona-um-commit-espec%C3%ADfico-em-uma-branch---cherry-pick">git cherry-pick</a>
 
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#mostra-o-autor-das-altera%C3%A7%C3%B5es---blame">git blame</a>
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#clonar-reposit%C3%B3rio---clone">git clone</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#realizar-commits---commit">git commit</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#configura%C3%A7%C3%A3o-do-git---config">git config</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#mostra-as-diferen%C3%A7as-entre-commits---diff">git diff</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#inicializar-um-reposit%C3%B3rio---init">git init</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#log-dos-commits---log">git log</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#unir-branches---merge">git merge</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#trazer-os-commits-do-reposit%C3%B3rio-remoto---pull">git pull</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#enviar-os-commits-para-o-reposit%C3%B3rio-remoto---push">git push</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#transferir-commits-antigos-para-a-branch-desejada---rebase">git rebase</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#fazer-conex%C3%A3o-com-o-reposit%C3%B3rio-remoto---remote">git remote</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#retornar-a-um-commit-anterior---reset">git reset</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#restaura-as-modifica%C3%A7%C3%B5es---restore">git restore</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#mostra-as-altera%C3%A7%C3%B5es-do-commit---show">git show</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#guarda-as-altera%C3%A7%C3%B5es-para-aplicar-posteriormente---stash">git stash</a>
+
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#verificar-status-dos-arquivos---status">git status</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#trocar-de-branch---switch">git switch</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#adicionar-tags-aos-commits---tag">git tag</a>
 
 <br>
 
