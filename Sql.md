@@ -5,6 +5,31 @@
     poderá usar no dia a dia.
 </p>
 
+<h2>Sumário:</h2>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#alter">ALTER</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#create">CREATE</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#fun%C3%A7%C3%B5es">Funções</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#fun%C3%A7%C3%B5es-de-data">Funções de data</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#insert">INSERT</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#join">JOIN</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#select--filtros">SELECT + Filtros</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#subquery">SUBQUERY</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#union">UNION</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#update">UPDATE</a>
+
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#view">VIEW</a>
+
+
 <h2>CREATE</h2>
 
 - Criar um banco de dados:
@@ -422,7 +447,7 @@ SELECT
     FROM TABELA_DE_CLIENTES;
 ```
 
-<h3>Funções de data</h3>
+<h3>FUNÇÕES DE DATA</h3>
 
 - GETDATE -> retorna a data do seu computador
 
