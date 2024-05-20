@@ -23,6 +23,8 @@
 
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#subquery">SUBQUERY</a>
 
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#tipos-de-dados">Tipos de dados</a>
+
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#union">UNION</a>
 
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#update">UPDATE</a>
@@ -643,4 +645,9 @@ SELECT
 - UNIQUEIDENTIFIER
 - XML
 
+<br><br>
+
+<div align="center">
+    <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Sql.md#comandos-sql">VOLTAR AO TOPO</a>
+</div>
 
