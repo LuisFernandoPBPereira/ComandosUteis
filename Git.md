@@ -289,8 +289,6 @@ git stash list
 git stash clear
 ```
 
-<br>
-
 - Coloca as alterações em stash com mensagem personalizada
 
 ```bash
