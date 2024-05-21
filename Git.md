@@ -5,6 +5,9 @@
     poderá usar no dia a dia.
 </p>
 
+> [!IMPORTANT]
+> Lembre-se de gerar uma chave SSH para ter maior segurança ao usar o git
+
 <h2>Sumário:</h2>
 
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/Git.md#adicionar-todos-arquivos-para-o-reposit%C3%B3rio---add">git add</a>
