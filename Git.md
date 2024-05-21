@@ -363,6 +363,12 @@ git tag -a nome-da-tag -m "mensagem"
 git tag -d nome-da-tag
 ```
 
+- Exibe a lista de todas as tag
+
+```bash
+git tag
+```
+
 - Mostra detalhes da tag
 
 ```bash
