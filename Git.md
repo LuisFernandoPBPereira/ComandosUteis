@@ -313,7 +313,7 @@ git stash drop stash@{indice}
 
 <h2>Restaura as modificações -> restore</h2>
 
-- Restaura as modificações de um arquivo que foi adicionado
+- Remove o arquivo da área de staging, mantendo-o modificado localmente
 
 ```bash
 git restore --staged nome-do-arquivo
