@@ -78,3 +78,32 @@ public string[] GetCliente()
     <code>escritor.Write("000,0000,000.00,Nome");</code>, escreve no arquivo.
     <br><br>
     Note que também precisamos do FileStream para criar o arquivo.
+</p>
+
+<br>
+
+- <h3>Método Flush</h3>
+
+```csharp
+public static void TestaEscrita()
+{
+    using (var fluxoDeArquivo = new FileStream("endereco-do-arquivo", FileMode.Create))
+    using (var escritor = new StreamWriter(fluxoDeArquivo))
+    {
+        for (int i =0; i<100; i++)
+        {
+            escritor.WriteLine($"Linha {i}");
+            escritor.Flush(); // Despeja o buffer para o Stream
+            Console.WriteLine($"Linha {i} foi escrita no arquivo. Tecle enter...");
+            Console.ReadLine();
+        }
+    }
+}
+```
+
+<p>
+    O método Flush do comando: 
+    <code>escritor.Flush();</code>, despeja o buffer para o Stream.
+    <br><br>
+    O Flush é utilizado para escrever no arquivo a cada linha, sem a necessidade de esperar o buffer encher.
+</p>
