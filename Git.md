@@ -289,6 +289,12 @@ git stash list
 git stash clear
 ```
 
+- remove um stash específico da lista de stashes do git
+
+```bash
+git stash drop stash@{0}
+```
+
 <br>
 
 - Coloca as alterações em stash com mensagem personalizada
