@@ -1,0 +1,55 @@
+<h1 align="center">JOIN</h2>
+
+- INNER JOIN
+
+```sql
+SELECT [C.CIDADE], [C.ESTADO], [M.DATA], [M.VALOR_VENDA] 
+   FROM [MOVIMENTO] M 
+   INNER JOIN [CLIENTE] C ON C.CLIENTE = M.CLIENTE;
+```
+
+- INNER JOIN sem repetição de dados
+
+```sql
+SELECT DISTINCT [TC.CPF], [TC.NOME], [NF.CPF] 
+   FROM [TABELA_CLIENTES] TC 
+   INNER JOIN [NOTAS_FISCAIS] NF ON [TC.CPF] = [NF.CPF];
+```
+
+- RIGHT JOIN sem repetição de dados
+
+```sql
+SELECT DISTINCT [TV.NOME], [TV.BAIRRO], [TC.BAIRRO], [TC.NOME]
+   FROM [TABELA_CLIENTES] TC 
+   RIGHT JOIN [TABELA_VENDEDORES] TV
+   ON [TC.BAIRRO] = [TV.BAIRRO]
+   WHERE TC.NOME IS NULL;
+```
+
+- LEFT JOIN sem repetição de dados
+
+```sql
+SELECT DISTINCT [TV.NOME], [TV.BAIRRO], [TC.BAIRRO], [TC.NOME]
+   FROM [TABELA_CLIENTES] TC 
+   LEFT JOIN [TABELA_VENDEDORES] TV
+   ON [TC.BAIRRO] = [TV.BAIRRO]
+   WHERE TV.NOME IS NULL;
+```
+
+- FULL JOIN sem repetição de dados
+
+```sql
+SELECT DISTINCT [TV.NOME], [TV.BAIRRO], [TC.BAIRRO], [TC.NOME]
+   FROM [TABELA_CLIENTES] TC 
+   FULL JOIN [TABELA_VENDEDORES] TV
+   ON [TC.BAIRRO] = [TV.BAIRRO]
+   WHERE TV.NOME IS NULL;
+```
+
+- CROSS JOIN
+
+```sql
+SELECT Employees.EmployeeName, Courses.CourseName
+    FROM Employees
+    CROSS JOIN Courses;
+```

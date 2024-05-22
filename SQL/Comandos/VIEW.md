@@ -1,0 +1,18 @@
+<h1 align="center">VIEW</h1>
+
+- Criar uma view
+
+```sql
+CREATE VIEW MEDIA_EMBALAGENS AS 
+    SELECT EMBALAGEM, AVG(PRECO_DE_LISTA) AS 'PRECO MEDIO'
+        FROM TABELA_DE_PRODUTOS
+        GROUP BY EMBALAGEM;
+```
+
+- Buscar informações de uma view
+
+```sql
+SELECT EMBALAGEM, [PRECO MEDIO]
+    FROM MEDIA_EMBALAGENS
+    WHERE [PRECO MEDIO] <= 10;
+```
