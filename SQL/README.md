@@ -21,7 +21,7 @@
 
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/tree/main/SQL/Comandos/SUBQUERY.md">SUBQUERY</a>
 
-- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/tree/main/SQL/Outros/Tipos-de-dados.md">Tipos de dados</a>
+- <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/blob/main/SQL/Outros/TiposDeDados.md">Tipos de dados</a>
 
 - <a href="https://github.com/LuisFernandoPBPereira/ComandosUteis/tree/main/SQL/Comandos/UNION.md">UNION</a>
 
