@@ -9,7 +9,6 @@
 <p>Em pacotes NuGet, pesquisar por:</p>
 
 - AutoMapper
-- AutoMapper.Extensions.Microsoft.DependencyInjection
 
 <h2>Configuração</h2>
 
