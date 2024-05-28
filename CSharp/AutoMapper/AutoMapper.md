@@ -55,3 +55,28 @@ public Classe(IMapper mapper)
 ```csharp
 Classe classe = _mapper.Map<Classe>(dtoParaMapear);
 ```
+
+<br>
+
+<h3>Explicitando relacionamento:</h3>
+
+```csharp
+public class CinemaProfile : Profile
+{
+    public CinemaProfile()
+    {
+        CreateMap<CreateCinemaDto, Cinema>();
+
+        CreateMap<Cinema, ReadCinemaDto>()
+			.ForMember(cinemaDto => cinemaDto.Endereco,
+					   opt => opt.MapFrom(cinema => cinema.Endereco))
+			.ForMember(cinemaDto => cinemaDto.Sessoes,
+					   opt => opt.MapFrom(cinema => cinema.Sessoes));
+
+        CreateMap<UpdateCinemaDto, Cinema>();
+    }
+}
+```
+<p>
+	No exemplo acima, o AutoMapper irá mapear o objeto Cinema para o objeto ReadCinemaDto, porém, o objeto ReadCinemaDto possui um atributo do tipo Endereco e um atributo do tipo Sessoes. Para mapear esses atributos, é necessário explicitar o relacionamento entre eles.
+</p>
