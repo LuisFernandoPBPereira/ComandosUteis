@@ -11,3 +11,19 @@ IF OBJECT_ID('NomeDaTabela', 'U') IS NOT NULL
 IF OBJECT_ID('NomeDaTabela', 'U') IS NULL
     CREATE TABLE NomeDaTabela (Colunas)
 ```
+
+<h2>IF...ELSE</h2>
+
+```sql
+DECLARE @DiaDaSemana VARCHAR(20);
+DECLARE @NumeroDias INT;
+
+SET @NumeroDias = 5;
+SET @DiaDaSemana = DATENAME(WEEKDAY, DATEADD(DAY, @NumeroDias, GETDATE()));
+
+IF @DiaDaSemana = 'Sábado' OR @DiaDaSemana = 'Domingo'
+    PRINT 'Este dia é fim de semana';
+ELSE
+    PRINT 'Este dia não é fim de semana';
+```
+
