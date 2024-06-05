@@ -85,3 +85,10 @@ SELECT [CLIENTE],
     ) 
     FROM [CLIENTE];
 ```
+
+- Seleção que transfere dados de uma tabela para outra
+
+```sql
+SELECT * INTO nome-da-tabela-destino 
+    FROM nome-da-tabela-origem;
+```
