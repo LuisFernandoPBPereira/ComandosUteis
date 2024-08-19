@@ -48,3 +48,52 @@ Chamando método Dispose
 ```
 CS1674: 'RecursoSemDisposable': O tipo usado em uma instrução using deve ser implicitamente conversível em 'System.IDisposable'.
 ```
+
+<br>
+
+<h3>Conversão do using pelo compilador (Descompilação)</h3>
+
+```csharp
+using System;
+using System.Diagnostics;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+using System.Security;
+using System.Security.Permissions;
+
+[assembly: CompilationRelaxations(8)]
+[assembly: RuntimeCompatibility(WrapNonExceptionThrows = true)]
+[assembly: Debuggable(DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints)]
+[assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
+[assembly: AssemblyVersion("0.0.0.0")]
+[module: UnverifiableCode]
+[module: RefSafetyRules(11)]
+
+public class RecursoComDispose : IDisposable
+{
+    public void Dispose()
+    {
+        Console.WriteLine("Chamando método Dispose");
+    }
+}
+
+public static class Execucao
+{
+    public static void Executar()
+    {
+        RecursoComDispose recursoComDispose = new RecursoComDispose();
+        try
+        {
+            Console.WriteLine("Acessando recurso com dispose");
+        }
+        finally
+        {
+            if (recursoComDispose != null)
+            {
+                ((IDisposable)recursoComDispose).Dispose();
+            }
+        }
+    }
+}
+
+```
