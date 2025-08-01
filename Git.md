@@ -213,6 +213,28 @@ git reset --hard hash-do-commit
 
 <br>
 
+<p>
+    O comando <code>git reset --soft</code> é utilizado para retornar a um commit anterior, 
+    colocando as alterações em staging.
+</p>
+
+```bash
+git reset --soft hash-do-commit
+```
+
+<br>
+
+<p>
+    O comando <code>git reset --mixed</code> é utilizado para retornar a um commit anterior, 
+    colocando as alterações em untracked.
+</p>
+
+```bash
+git reset --mixed hash-do-commit
+```
+
+<br>
+
 <h2>Mostra as alterações do commit -> show</h2>
 
 - Mostra as alterações do último commit
